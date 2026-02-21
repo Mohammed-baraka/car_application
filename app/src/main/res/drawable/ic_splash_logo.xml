@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <group
+        android:translateX="20"
+        android:translateY="20">
+
+        <!-- خلفية دائرية كبيرة -->
+        <path
+            android:pathData="M80,20 A60,60 0 1,1 80,140 A60,60 0 1,1 80,20z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startColor="#667EEA"
+                    android:endColor="#764BA2"
+                    android:type="radial"
+                    android:centerX="80"
+                    android:centerY="80"
+                    android:gradientRadius="60"/>
+            </aapt:attr>
+        </path>
+
+        <!-- اسم التطبيق - حجز سيارات -->
+        <group android:translateX="30" android:translateY="110">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M10,0 L20,0 L25,10 L30,0 L40,0 L32,15 L40,30 L30,30 L25,20 L20,30 L10,30 L18,15 L10,0z"/>
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M50,0 L70,0 L70,30 L50,30 L50,25 L64,25 L64,18 L52,18 L52,5 L64,5 L64,0 L50,0z"/>
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M80,0 L100,0 L100,5 L86,5 L86,12 L98,12 L98,17 L86,17 L86,25 L100,25 L100,30 L80,30 L80,0z"/>
+        </group>
+
+        <!-- سيارة كبيرة -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M110,70 L100,50 L60,50 L50,70 L40,70 L40,80 L50,80 L50,90 L110,90 L110,80 L120,80 L120,70 L110,70z
+            M65,85 C60,85 56,81 56,76 C56,71 60,67 65,67 C70,67 74,71 74,76 C74,81 70,85 65,85z
+            M105,85 C100,85 96,81 96,76 C96,71 100,67 105,67 C110,67 114,71 114,76 C114,81 110,85 105,85z"/>
+
+    </group>
+</vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- لون خلفية أزرق فاتح -->
+    <solid android:color="#E3F2FD" />
+
+    <!-- الحواف الدائرية -->
+    <corners android:radius="20dp" />
+
+    <!-- حجم الخلفية -->
+    <size
+        android:width="40dp"
+        android:height="40dp" />
+
+    <!-- حدود زرقاء -->
+    <stroke
+        android:width="0.5dp"
+        android:color="#2196F3" />
+
+</shape>

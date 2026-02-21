@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- خلفية السيارة -->
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M160,70 L140,40 L60,40 L40,70 L20,70 L20,90 L40,90 L40,100 L160,100 L160,90 L180,90 L180,70 L160,70z" />
+
+    <!-- شبك أمامي -->
+    <path
+        android:fillColor="#34495E"
+        android:pathData="M130,45 L70,45 L60,60 L140,60 L130,45z" />
+
+    <!-- نوافذ -->
+    <path
+        android:fillColor="#BDC3C7"
+        android:pathData="M120,50 L100,50 L100,65 L120,65 L120,50z" />
+    <path
+        android:fillColor="#BDC3C7"
+        android:pathData="M90,50 L70,50 L70,65 L90,65 L90,50z" />
+
+    <!-- عجلات -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M50,100 C40,100 32,92 32,82 C32,72 40,64 50,64 C60,64 68,72 68,82 C68,92 60,100 50,100z" />
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M150,100 C140,100 132,92 132,82 C132,72 140,64 150,64 C160,64 168,72 168,82 C168,92 160,100 150,100z" />
+
+    <!-- جنوط -->
+    <path
+        android:fillColor="#7F8C8D"
+        android:pathData="M50,82 C50,82 50,82 50,82 A8,8 0 1,1 50,66 A8,8 0 1,1 50,82z" />
+    <path
+        android:fillColor="#7F8C8D"
+        android:pathData="M150,82 C150,82 150,82 150,82 A8,8 0 1,1 150,66 A8,8 0 1,1 150,82z" />
+
+</vector>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <path
+        android:fillColor="#E74C3C"
+        android:pathData="M160,62 L145,32 L55,32 L40,62 L20,62 L20,82 L40,82 L40,100 L160,100 L160,82 L180,82 L180,62 L160,62z" />
+
+    <path
+        android:fillColor="#C0392B"
+        android:pathData="M130,37 L70,37 L60,52 L140,52 L130,37z" />
+
+    <path
+        android:fillColor="#ECF0F1"
+        android:pathData="M115,42 L95,42 L95,57 L115,57 L115,42z" />
+    <path
+        android:fillColor="#ECF0F1"
+        android:pathData="M85,42 L65,42 L65,57 L85,57 L85,42z" />
+
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M50,100 C40,100 32,92 32,82 C32,72 40,64 50,64 C60,64 68,72 68,82 C68,92 60,100 50,100z" />
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M150,100 C140,100 132,92 132,82 C132,72 140,64 150,64 C160,64 168,72 168,82 C168,92 160,100 150,100z" />
+
+    <!-- شريط رياضي -->
+    <path
+        android:fillColor="#F1C40F"
+        android:pathData="M90,85 L110,85 L110,90 L90,90 L90,85z" />
+
+</vector>
